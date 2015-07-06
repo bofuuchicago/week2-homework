@@ -1,0 +1,698 @@
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-05 22:16:13 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/railties-4.2.3/lib/rails/templates/rails/welcome/index.html.erb (1.9ms)
+Completed 200 OK in 18ms (Views: 9.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-05 22:16:14 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/railties-4.2.3/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-05 22:41:48 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/railties-4.2.3/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/greet" for 127.0.0.1 at 2015-07-05 22:41:52 -0500
+Processing by GreetController#show_greet as HTML
+  Rendered greet/greet.erb within layouts/application (0.5ms)
+Completed 200 OK in 1504ms (Views: 1503.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/greet?salutation=fubo" for 127.0.0.1 at 2015-07-05 22:42:03 -0500
+Processing by GreetController#show_greet as HTML
+  Parameters: {"salutation"=>"fubo"}
+  Rendered greet/greet.erb within layouts/application (0.1ms)
+Completed 200 OK in 34ms (Views: 32.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2015-07-05 22:51:48 -0500
+Processing by ContactController#contact_information as HTML
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+NameError (undefined local variable or method `contact' for #<ContactController:0x007fd721078a50>):
+  app/controllers/contact_controller.rb:3:in `contact_information'
+
+
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.6ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (56.4ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/console.js.erb within layouts/javascript (48.1ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/index.html.erb (111.8ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2015-07-05 22:53:07 -0500
+Processing by ContactController#contact_information as HTML
+  Rendered contact/contact.erb within layouts/application (0.3ms)
+Completed 200 OK in 31ms (Views: 30.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2015-07-05 22:54:22 -0500
+Processing by ContactController#contact_information as HTML
+  Rendered contact/contact.erb within layouts/application (0.3ms)
+Completed 200 OK in 25ms (Views: 24.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-07-05 22:54:22 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-07-05 22:54:22 -0500
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 127.0.0.1 at 2015-07-05 22:54:22 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-07-05 22:54:22 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-07-05 22:54:22 -0500
+
+
+Started GET "/contact" for 127.0.0.1 at 2015-07-05 22:55:55 -0500
+Processing by ContactController#contact_information as HTML
+  Rendered contact/contact.erb within layouts/application (0.0ms)
+Completed 200 OK in 31ms (Views: 30.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-07-05 22:55:55 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-07-05 22:55:55 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-07-05 22:55:55 -0500
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 127.0.0.1 at 2015-07-05 22:55:55 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-07-05 22:55:55 -0500
+
+
+Started GET "/contact_show?first=bo&last=fu" for 127.0.0.1 at 2015-07-05 22:56:06 -0500
+
+ActionController::RoutingError (No route matches [GET] "/contact_show"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.3) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/fubo/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/fubo/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/fubo/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (9.8ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (78.7ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/console.js.erb within layouts/javascript (38.9ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/index.html.erb (85.0ms)
+
+
+Started GET "/contact_show?first=bo&last=fu" for 127.0.0.1 at 2015-07-05 22:56:53 -0500
+Processing by ContactController#show_contact as HTML
+  Parameters: {"first"=>"bo", "last"=>"fu"}
+  Rendered contact/contact_show.erb within layouts/application (0.4ms)
+Completed 200 OK in 23ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact_show?first=Bo&last=Fu" for 127.0.0.1 at 2015-07-05 22:59:40 -0500
+Processing by ContactController#show_contact as HTML
+  Parameters: {"first"=>"Bo", "last"=>"Fu"}
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+ActionView::MissingTemplate (Missing template contact/contact_submitted, application/contact_submitted with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/fubo/Documents/Web Development/week2-homework/hw/app/views"
+):
+  app/controllers/contact_controller.rb:9:in `show_contact'
+
+
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.0ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (53.3ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/console.js.erb within layouts/javascript (42.4ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/index.html.erb (100.5ms)
+
+
+Started GET "/contact_show?first=Bo&last=Fu" for 127.0.0.1 at 2015-07-05 23:00:40 -0500
+Processing by ContactController#show_contact as HTML
+  Parameters: {"first"=>"Bo", "last"=>"Fu"}
+  Rendered contact/contact_submitted.erb within layouts/application (1.3ms)
+Completed 200 OK in 32ms (Views: 31.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/weather" for 127.0.0.1 at 2015-07-05 23:39:29 -0500
+Processing by WeatherController#enter_city as HTML
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+ActionView::MissingTemplate (Missing template weather/weather_show, application/weather_show with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/fubo/Documents/Web Development/week2-homework/hw/app/views"
+):
+  app/controllers/weather_controller.rb:7:in `enter_city'
+
+
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.6ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (50.6ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/console.js.erb within layouts/javascript (40.3ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/index.html.erb (103.8ms)
+
+
+Started GET "/weather" for 127.0.0.1 at 2015-07-05 23:40:02 -0500
+Processing by WeatherController#enter_city as HTML
+  Rendered weather/city.erb within layouts/application (0.4ms)
+Completed 200 OK in 34ms (Views: 32.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/current_conditions?city=Chicago" for 127.0.0.1 at 2015-07-05 23:40:06 -0500
+Processing by WeatherController#show_current_conditions as HTML
+  Parameters: {"city"=>"Chicago"}
+Completed 500 Internal Server Error in 3201ms (ActiveRecord: 0.0ms)
+
+NameError (undefined local variable or method `unit' for #<WeatherController:0x007fd71d0c93c8>):
+  app/controllers/weather_controller.rb:14:in `show_current_conditions'
+
+
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.3ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (59.2ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/console.js.erb within layouts/javascript (39.6ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/index.html.erb (90.1ms)
+
+
+Started GET "/current_conditions?city=Chicago" for 127.0.0.1 at 2015-07-05 23:40:10 -0500
+Processing by WeatherController#show_current_conditions as HTML
+  Parameters: {"city"=>"Chicago"}
+Completed 500 Internal Server Error in 396ms (ActiveRecord: 0.0ms)
+
+NameError (undefined local variable or method `unit' for #<WeatherController:0x007fd7213269a0>):
+  app/controllers/weather_controller.rb:14:in `show_current_conditions'
+
+
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.1ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (50.1ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/console.js.erb within layouts/javascript (36.2ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/index.html.erb (80.1ms)
+
+
+Started GET "/current_conditions?city=Chicago" for 127.0.0.1 at 2015-07-05 23:41:11 -0500
+Processing by WeatherController#show_current_conditions as HTML
+  Parameters: {"city"=>"Chicago"}
+  Rendered weather/current_conditions.erb within layouts/application (0.4ms)
+Completed 200 OK in 3908ms (Views: 27.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/current_conditions?city=Beijing" for 127.0.0.1 at 2015-07-05 23:42:49 -0500
+Processing by WeatherController#show_current_conditions as HTML
+  Parameters: {"city"=>"Beijing"}
+  Rendered weather/current_conditions.erb within layouts/application (0.4ms)
+Completed 200 OK in 2509ms (Views: 28.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/current_conditions?city=Chengdu" for 127.0.0.1 at 2015-07-05 23:42:58 -0500
+Processing by WeatherController#show_current_conditions as HTML
+  Parameters: {"city"=>"Chengdu"}
+  Rendered weather/current_conditions.erb within layouts/application (0.1ms)
+Completed 200 OK in 787ms (Views: 22.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/current_conditions?city=New+york" for 127.0.0.1 at 2015-07-05 23:43:18 -0500
+Processing by WeatherController#show_current_conditions as HTML
+  Parameters: {"city"=>"New york"}
+Completed 500 Internal Server Error in 1265ms (ActiveRecord: 0.0ms)
+
+RuntimeError (Cannot find the location.):
+  app/controllers/weather_controller.rb:31:in `get_id'
+  app/controllers/weather_controller.rb:13:in `show_current_conditions'
+
+
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.3ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (46.9ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/console.js.erb within layouts/javascript (39.0ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/index.html.erb (90.1ms)
+
+
+Started GET "/current_conditions?city=New+York" for 127.0.0.1 at 2015-07-05 23:43:41 -0500
+Processing by WeatherController#show_current_conditions as HTML
+  Parameters: {"city"=>"New York"}
+Completed 500 Internal Server Error in 1426ms (ActiveRecord: 0.0ms)
+
+RuntimeError (Cannot find the location.):
+  app/controllers/weather_controller.rb:31:in `get_id'
+  app/controllers/weather_controller.rb:13:in `show_current_conditions'
+
+
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.3ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (47.6ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/console.js.erb within layouts/javascript (36.8ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/index.html.erb (79.4ms)
+
+
+Started GET "/current_conditions?city=NewYork" for 127.0.0.1 at 2015-07-05 23:43:51 -0500
+Processing by WeatherController#show_current_conditions as HTML
+  Parameters: {"city"=>"NewYork"}
+  Rendered weather/current_conditions.erb within layouts/application (0.1ms)
+Completed 200 OK in 1631ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/current_conditions?city=60615" for 127.0.0.1 at 2015-07-05 23:44:05 -0500
+Processing by WeatherController#show_current_conditions as HTML
+  Parameters: {"city"=>"60615"}
+  Rendered weather/current_conditions.erb within layouts/application (0.1ms)
+Completed 200 OK in 3535ms (Views: 24.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/current_conditions?city=sad" for 127.0.0.1 at 2015-07-05 23:46:22 -0500
+Processing by WeatherController#show_current_conditions as HTML
+  Parameters: {"city"=>"sad"}
+  Rendered weather/current_conditions.erb within layouts/application (0.1ms)
+Completed 200 OK in 3809ms (Views: 38.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/current_conditions?city=new+snfs+sad" for 127.0.0.1 at 2015-07-05 23:46:33 -0500
+Processing by WeatherController#show_current_conditions as HTML
+  Parameters: {"city"=>"new snfs sad"}
+Completed 500 Internal Server Error in 285ms (ActiveRecord: 0.0ms)
+
+RuntimeError (Cannot find the location.):
+  app/controllers/weather_controller.rb:31:in `get_id'
+  app/controllers/weather_controller.rb:13:in `show_current_conditions'
+
+
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.4ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (52.7ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/console.js.erb within layouts/javascript (45.0ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/index.html.erb (98.1ms)
+
+
+Started GET "/current_conditions?city=new+snfs+sad" for 127.0.0.1 at 2015-07-05 23:47:01 -0500
+Processing by WeatherController#show_current_conditions as HTML
+  Parameters: {"city"=>"new snfs sad"}
+Completed 500 Internal Server Error in 1227ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `text' for nil:NilClass):
+  app/controllers/weather_controller.rb:32:in `get_id'
+  app/controllers/weather_controller.rb:13:in `show_current_conditions'
+
+
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.4ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (55.9ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/console.js.erb within layouts/javascript (38.6ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/index.html.erb (86.3ms)
+
+
+Started GET "/current_conditions?city=new+snfs+sad" for 127.0.0.1 at 2015-07-05 23:48:21 -0500
+Processing by WeatherController#show_current_conditions as HTML
+  Parameters: {"city"=>"new snfs sad"}
+Completed 500 Internal Server Error in 2637ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `text' for nil:NilClass):
+  app/controllers/weather_controller.rb:34:in `get_id'
+  app/controllers/weather_controller.rb:13:in `show_current_conditions'
+
+
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.7ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (47.8ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/console.js.erb within layouts/javascript (41.7ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/index.html.erb (91.4ms)
+
+
+Started GET "/current_conditions?city=new+snfs+sad" for 127.0.0.1 at 2015-07-05 23:48:59 -0500
+Processing by WeatherController#show_current_conditions as HTML
+  Parameters: {"city"=>"new snfs sad"}
+Completed 500 Internal Server Error in 2402ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `text' for nil:NilClass):
+  app/controllers/weather_controller.rb:36:in `get_id'
+  app/controllers/weather_controller.rb:13:in `show_current_conditions'
+
+
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.2ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (50.4ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/console.js.erb within layouts/javascript (37.8ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/index.html.erb (84.8ms)
+
+
+Started GET "/current_conditions?city=Chicago" for 127.0.0.1 at 2015-07-05 23:54:08 -0500
+
+LoadError (cannot load such file -- soap/wsdlDriver):
+  app/controllers/weather_controller.rb:4:in `<top (required)>'
+
+
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.6ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (49.8ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/console.js.erb within layouts/javascript (49.6ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/index.html.erb (104.0ms)
+
+
+Started GET "/current_conditions?city=Chicago" for 127.0.0.1 at 2015-07-05 23:56:13 -0500
+
+LoadError (cannot load such file -- soap/wsdlDriver):
+  app/controllers/weather_controller.rb:4:in `<top (required)>'
+
+
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.1ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (50.7ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/console.js.erb within layouts/javascript (44.1ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/index.html.erb (101.2ms)
+
+
+Started GET "/current_conditions?city=Chicago" for 127.0.0.1 at 2015-07-05 23:56:24 -0500
+Processing by WeatherController#show_current_conditions as HTML
+  Parameters: {"city"=>"Chicago"}
+  Rendered weather/current_conditions.erb within layouts/application (1.3ms)
+Completed 200 OK in 3567ms (Views: 30.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/current_conditions?city=Chicago" for 127.0.0.1 at 2015-07-05 23:57:40 -0500
+Processing by WeatherController#show_current_conditions as HTML
+  Parameters: {"city"=>"Chicago"}
+  Rendered weather/current_conditions.erb within layouts/application (0.6ms)
+Completed 200 OK in 2483ms (Views: 28.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/current_conditions?city=Chicago" for 127.0.0.1 at 2015-07-06 00:00:21 -0500
+Processing by WeatherController#show_current_conditions as HTML
+  Parameters: {"city"=>"Chicago"}
+  Rendered weather/current_conditions.erb within layouts/application (1.9ms)
+Completed 200 OK in 2407ms (Views: 32.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/current_conditions?city=Chicago" for 127.0.0.1 at 2015-07-06 00:01:53 -0500
+Processing by WeatherController#show_current_conditions as HTML
+  Parameters: {"city"=>"Chicago"}
+  Rendered weather/current_conditions.erb within layouts/application (1.2ms)
+Completed 200 OK in 3690ms (Views: 31.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/current_conditions?city=Chicago" for 127.0.0.1 at 2015-07-06 00:03:53 -0500
+Processing by WeatherController#show_current_conditions as HTML
+  Parameters: {"city"=>"Chicago"}
+Completed 500 Internal Server Error in 2358ms (ActiveRecord: 0.0ms)
+
+NameError (undefined local variable or method `doc' for #<WeatherController:0x007fd7238326b8>):
+  app/controllers/weather_controller.rb:29:in `get_id'
+  app/controllers/weather_controller.rb:13:in `show_current_conditions'
+
+
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.6ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (52.8ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/console.js.erb within layouts/javascript (42.0ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/index.html.erb (92.2ms)
+
+
+Started GET "/current_conditions?city=Chicago" for 127.0.0.1 at 2015-07-06 00:04:10 -0500
+Processing by WeatherController#show_current_conditions as HTML
+  Parameters: {"city"=>"Chicago"}
+  Rendered weather/current_conditions.erb within layouts/application (0.5ms)
+Completed 200 OK in 1661ms (Views: 29.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/current_conditions?city=Chicago" for 127.0.0.1 at 2015-07-06 00:05:19 -0500
+Processing by WeatherController#show_current_conditions as HTML
+  Parameters: {"city"=>"Chicago"}
+  Rendered weather/current_conditions.erb within layouts/application (1.1ms)
+Completed 200 OK in 2454ms (Views: 28.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/current_conditions?city=Chicago" for 127.0.0.1 at 2015-07-06 00:06:42 -0500
+Processing by WeatherController#show_current_conditions as HTML
+  Parameters: {"city"=>"Chicago"}
+  Rendered weather/current_conditions.erb within layouts/application (1.8ms)
+Completed 200 OK in 3574ms (Views: 28.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/current_conditions?city=Chicago" for 127.0.0.1 at 2015-07-06 00:07:23 -0500
+Processing by WeatherController#show_current_conditions as HTML
+  Parameters: {"city"=>"Chicago"}
+  Rendered weather/current_conditions.erb within layouts/application (0.4ms)
+Completed 200 OK in 1558ms (Views: 36.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/current_conditions?city=Chicago" for 127.0.0.1 at 2015-07-06 00:08:49 -0500
+Processing by WeatherController#show_current_conditions as HTML
+  Parameters: {"city"=>"Chicago"}
+  Rendered weather/current_conditions.erb within layouts/application (0.3ms)
+Completed 200 OK in 3501ms (Views: 33.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/current_conditions?city=Chicago" for 127.0.0.1 at 2015-07-06 00:10:11 -0500
+Processing by WeatherController#show_current_conditions as HTML
+  Parameters: {"city"=>"Chicago"}
+Completed 500 Internal Server Error in 2427ms (ActiveRecord: 0.0ms)
+
+NameError (undefined local variable or method `locations' for #<WeatherController:0x007fd71d1d0fa0>):
+  app/controllers/weather_controller.rb:19:in `show_current_conditions'
+
+
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.5ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (57.9ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/console.js.erb within layouts/javascript (49.1ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/index.html.erb (100.4ms)
+
+
+Started GET "/current_conditions?city=Chicago" for 127.0.0.1 at 2015-07-06 00:10:19 -0500
+Processing by WeatherController#show_current_conditions as HTML
+  Parameters: {"city"=>"Chicago"}
+Completed 500 Internal Server Error in 270ms (ActiveRecord: 0.0ms)
+
+NameError (undefined local variable or method `locations' for #<WeatherController:0x007fd72136cf68>):
+  app/controllers/weather_controller.rb:19:in `show_current_conditions'
+
+
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.5ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (62.4ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/console.js.erb within layouts/javascript (41.5ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/index.html.erb (96.3ms)
+
+
+Started GET "/current_conditions?city=Chicago" for 127.0.0.1 at 2015-07-06 00:10:38 -0500
+Processing by WeatherController#show_current_conditions as HTML
+  Parameters: {"city"=>"Chicago"}
+Completed 500 Internal Server Error in 1462ms (ActiveRecord: 0.0ms)
+
+NameError (undefined local variable or method `locations' for #<WeatherController:0x007fd7238990c0>):
+  app/controllers/weather_controller.rb:19:in `show_current_conditions'
+
+
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.6ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (51.2ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/console.js.erb within layouts/javascript (36.6ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/fubo/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/index.html.erb (85.3ms)
+
+
+Started GET "/current_conditions?city=Chicago" for 127.0.0.1 at 2015-07-06 00:10:54 -0500
+Processing by WeatherController#show_current_conditions as HTML
+  Parameters: {"city"=>"Chicago"}
+  Rendered weather/current_conditions.erb within layouts/application (1.2ms)
+Completed 200 OK in 447ms (Views: 33.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/current_conditions?city=Chicago" for 127.0.0.1 at 2015-07-06 00:11:49 -0500
+Processing by WeatherController#show_current_conditions as HTML
+  Parameters: {"city"=>"Chicago"}
+  Rendered weather/current_conditions.erb within layouts/application (1.0ms)
+Completed 200 OK in 2504ms (Views: 31.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/current_conditions?city=Chicago" for 127.0.0.1 at 2015-07-06 00:12:18 -0500
+Processing by WeatherController#show_current_conditions as HTML
+  Parameters: {"city"=>"Chicago"}
+  Rendered weather/current_conditions.erb within layouts/application (0.9ms)
+Completed 200 OK in 1330ms (Views: 28.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/current_conditions?city=Chicago" for 127.0.0.1 at 2015-07-06 00:14:40 -0500
+Processing by WeatherController#show_current_conditions as HTML
+  Parameters: {"city"=>"Chicago"}
+  Rendered weather/current_conditions.erb within layouts/application (1.4ms)
+Completed 200 OK in 4074ms (Views: 28.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/current_conditions?city=Chicago" for 127.0.0.1 at 2015-07-06 00:15:48 -0500
+Processing by WeatherController#show_current_conditions as HTML
+  Parameters: {"city"=>"Chicago"}
+  Rendered weather/current_conditions.erb within layouts/application (1.1ms)
+Completed 200 OK in 2436ms (Views: 32.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/current_conditions?city=Chicago" for 127.0.0.1 at 2015-07-06 00:17:17 -0500
+Processing by WeatherController#show_current_conditions as HTML
+  Parameters: {"city"=>"Chicago"}
+  Rendered weather/current_conditions.erb within layouts/application (0.9ms)
+Completed 200 OK in 3513ms (Views: 26.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/current_conditions?city=Chicago" for 127.0.0.1 at 2015-07-06 00:19:10 -0500
+Processing by WeatherController#show_current_conditions as HTML
+  Parameters: {"city"=>"Chicago"}
+  Rendered weather/current_conditions.erb within layouts/application (1.4ms)
+Completed 200 OK in 2410ms (Views: 28.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/current_conditions?city=Chicago" for 127.0.0.1 at 2015-07-06 00:20:45 -0500
+Processing by WeatherController#show_current_conditions as HTML
+  Parameters: {"city"=>"Chicago"}
+  Rendered weather/current_conditions.erb within layouts/application (2.0ms)
+Completed 200 OK in 3275ms (Views: 32.0ms | ActiveRecord: 0.0ms)
